@@ -18,10 +18,9 @@ Description:
 Installation:
 	The Image Glare Removal application is packaged and deployed in the *.jar file
 	format. This format is a Java Archive file which packages the needed source
-	files and the Java Virtual Machine into a single executable file. In order to
-	run this software, the user must have properly installed the Java Runtime
-	Environment (JRE) on their computer. Java can be installed for free by visiting
-	Oracle's website at (without the quotes):
+	files into a single executable file. In order to run this software, the user
+	must have properly installed the Java Runtime Environment (JRE) on their computer.
+	Java can be installed for free by visiting Oracle's website at (without the quotes):
 	"http://www.oracle.com/technetwork/java/javase/downloads/jre-7u2-download-1377135.html".
 	Modern day operating systems usually package the JRE on the system, so most likely
 	Java has already been installed on your system. If however it has not, please take
