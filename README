@@ -1,0 +1,37 @@
+---------------------------------------------
+Image Glare Removal README
+
+Current Version: 				0.03
+Last Update:					10/30/2012
+Author(s):						Adam Childs - adchilds@eckerd.edu
+---------------------------------------------
+
+Description:
+	The purpose of the Image Glare Removal application is to provide
+	a graphical user interface application to users that need to remove
+	image glare from their photos. Users may load image files (.png, .jpg, etc.)
+	into the program and select an area where image glare is present. Upon
+	selection, the program should calculate what "should" be beneath the glare
+	spot, replace the glare with dynamic pixel values, and display the updated
+	image to the user.
+
+Installation:
+	The Image Glare Removal application is packaged and deployed in the *.jar file
+	format. This format is a Java Archive file which packages the needed source
+	files and the Java Virtual Machine into a single executable file. In order to
+	run this software, the user must have properly installed the Java Runtime
+	Environment (JRE) on their computer. Java can be installed for free by visiting
+	Oracle's website at (without the quotes):
+	"http://www.oracle.com/technetwork/java/javase/downloads/jre-7u2-download-1377135.html".
+	Modern day operating systems usually package the JRE on the system, so most likely
+	Java has already been installed on your system. If however it has not, please take
+	the time to download and install the JRE in order to properly execute this software.
+	
+Terms and Conditions:
+	Please view the LICENSE file provided along with the source code/program to
+	understand the agreement made in conjunction with using, distributing, or updating
+	this software.
+	
+Further Help:
+	If further help or questions arise in using, distributing, or updating this software,
+	please contact the author(s) noted in the header (beginning) section of this file.
