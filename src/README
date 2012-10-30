@@ -1,0 +1,45 @@
+******************************
+Image Glare Removal v0.01
+
+Author(s):
+    Adam Childs (adchilds@eckerd.edu)
+******************************
+
+The purpose of this application is to enable the user to remove image glare from the specified image. The user may select an area within the image that should be removed and replaced with dynamic colors that best represent the surrounding area.
+
+******************************
+Table of Contents:
+    1. Getting Started
+        i. Introduction
+        ii. Installing/Starting the Program
+        iii. Maneuvering throughout the Software
+    2. How to use the Software
+        i. Opening and Displaying an Image
+        ii. Resizing an Image
+        iii. Viewing an Images Pixel Colors
+        iv. Removing Image Glare
+******************************
+
+1. Getting Started
+
+    i. Introduction
+Welcome to the Image Glare Removal Application (currently v1.00). This application has been designed to enable the user to remove image glare from the user specified image.
+
+    ii. Installing/Starting the Program
+The Image Glare Removal application is packaged and deployed in the *.jar file format. This format is a Java Archive file which packages the needed source files and the Java Virtual Machine into a single executable file. In order to run this software, the user must have properly installed the Java Runtime Environment (JRE) on their computer. Java can be installed for free by visiting Oracle's website at (without the quotes): "http://www.oracle.com/technetwork/java/javase/downloads/jre-7u2-download-1377135.html". Modern day operating systems usually package the JRE on the system, so most likely Java has already been installed on your system. If however it has not, please take the time to download and install the JRE in order to properly execute this software.
+
+    iii. Maneuvering throughout the software
+This software has been created with the easiest possible graphical user interface. Maneuvering the software is as easy as clicking the buttons presented on the screen. The user does not in any way need to interface with the command line to operate this software. We will go into more detail on how to work different aspects of the software; however, it's important to note that everything can be done with the click of a button.
+
+2. How to use the Software
+
+    i. Opening and Displaying an Image
+The user may select and open an image to work with by clicking the 'File' menu and then selecting 'Open'. After selecting to open a new file, a file chooser menu will pop-up. The user may then locate the image stored locally on their hard drive. Upon finding an image to edit, the user may double click the image name or click the image name once and then click the 'Open' button. After doing so, the image should now be displayed within the program.
+
+    ii. Resizing an Image
+The user may at any time, resize the image displayed on the canvas. To do so, the user interface's toolbar provides an area that displays the current size of the image that the user is working with. In order to resize your image, enter new values in the width and height boxes and then click the resize button, located to the left of the width and height boxes. Alternatively, if the user would like to keep proportions, they may click the 'Image' menu at the top of the user interface and select the 'Resize' menu item. This allows the user to enter rational numbers such as: 1/2, 1/3, 5/2, etc... Please note, however, that resizing an image will reduce it's overall quality. It's best to stray away from resizing an image unless absolutely necessary.
+
+    iii. Viewing an Images Pixel Colors
+Once an image has been loaded onto the canvas, the user may click any location on the image which in return will display the RGB values at that location of the image in the console. Alternatively, the user may click the 'Get Pixel Colors' button in the user interface's toolbar and then select 'All Pixels' in the next menu, which will append all RGB values of every pixel of the current image into the console. Beware, this may take some time to complete depending on the user's processor speed. Finally, if the user wishes to view only selected pixels, they may click and drag anywhere on the image to select a rectangular area and then click the 'Get Pixel Colors' button in the toolbar, and then by further selecting 'Recently Selected Pixels'. This method will print the RGB values from the pixels within the rectangle that the user created earlier.
+
+    iv. Removing Image Glare

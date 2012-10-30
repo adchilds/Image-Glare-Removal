@@ -1,0 +1,24 @@
+------------------------------------------------------
+IMAGE GLARE REMOVAL CHANGELOG
+
+Format:
+
+Version # (date):
+	- Change #1
+	- Change #2
+	- Change #n
+------------------------------------------------------
+
+Version 0.00 (late 2011/early 2012):
+	- Beta version of program released with two terrible image glare removal algorithms (that don't work at all).
+	
+Version 0.01 (09/26/2012):
+	- Program redesigned to take advantage of the Model-View-Controller (MVC) design paradigm.
+
+Version 0.02 (10/2/2012):
+	- Method added to calculate the variance (in the Y from YIQ values) of a 60 x 60 matrix around an (x, y) location that the user may click.
+	- Method added to calculate mean of a given ArrayList<Integer>
+	- Method added to calculate standard deviation of a given ArrayList<Integer>
+
+Version 0.03 (10/26/2012):
+	- Variance equations changed to more accurately find "glare pixels"
