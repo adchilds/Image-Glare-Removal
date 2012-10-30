@@ -1,0 +1,16 @@
+
+bin/.DS_Store
+
+bin/CHANGELOG
+
+bin/HELP
+
+*.class
+
+bin/LICENSE
+
+bin/images/camera_flash.png
+
+bin/images/color_wheel.png
+
+bin/images/resize.gif
