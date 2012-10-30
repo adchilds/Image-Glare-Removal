@@ -493,7 +493,7 @@ public class Image_Glare_View implements ActionListener, MouseListener, MouseMot
 		{
 			// Open a general information window
 			JTextArea textArea = new JTextArea();
-			addContent(textArea, "../README");
+			addContent(textArea, "../HELP");
 			textArea.setEditable(false);
 			textArea.setCaretPosition(java.awt.Frame.NORMAL);
 			textArea.setLineWrap(true);
